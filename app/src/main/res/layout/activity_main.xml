@@ -60,17 +60,17 @@
             android:layout_height="wrap_content"
             android:text="Add It"
             android:id="@+id/button"
-            android:layout_gravity="center"
+            android:layout_gravity="left|center_vertical"
             android:clickable="true"
             android:onClick="onButtonClick" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="93dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="sum"
             android:id="@+id/sum"
-            android:layout_gravity="center_horizontal|bottom"
+            android:layout_gravity="center"
             android:background="#daa1ff" />
     </FrameLayout>
 
